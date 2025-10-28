@@ -718,6 +718,50 @@ console.log("hello world ");
 console.log("hello world "); 
 
 
+const airLine = "TAP Air Porgtugal";
+
+const plane ="A320";
+
+console.log(plane[0]);
+console.log(plane[1]);
+console.log(plane[2]);
+console.log(plane[3]);
+
+console.log("B737"[0]);
+
+console.log(airLine.length);
+console.log("B737".length);
+
+console.log(airLine.indexOf("r"));
+console.log(airLine.lastIndexOf("r"));
+
+console.log(airLine.indexOf("TAP Air Porgtugal"));
+
+console.log(airLine.slice(4)); // at postion 4 the slice or extraction will happen 
+
+console.log(airLine.slice(4,7));
+
+console.log(airLine.slice(8));
+
+
+console.log(airLine.slice(0,airLine.indexOf(" ")));
+console.log(airLine.slice(airLine.lastIndexOf(" ")+ 1));
+console.log(airLine.slice(airLine.lastIndexOf(" ")+ 1));
+
+
+
+console.log(airLine.slice(-2));
+
+console.log(airLine.slice(1,-1));
+
+const aT = [15,8,5];
+const bT = [6,3,2,1];
+const cT = aT/bT
+console.log(cT); 
+
+
+
+
 // const cheackMiddleSeat =  function(seat){
 
 //     const s = seat.slice(-1);
