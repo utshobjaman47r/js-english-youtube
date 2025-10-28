@@ -718,6 +718,51 @@ console.log("hello world ");
 console.log("hello world "); 
 
 
+// const cheackMiddleSeat =  function(seat){
+
+//     const s = seat.slice(-1);
+//     if(s === "B" || s === "E"){
+//         console.log("you are unlucky")
+//     } else{
+//         console.log("you got the window")
+//     }
+
+// }
+
+// cheackMiddleSeat("11B");
+// cheackMiddleSeat("23C");
+// cheackMiddleSeat("3E");
+
+
+
+
+const cheackMiddleSeat = function(seat){
+    // B and E is the middle seat of plans 
+    const s = seat.slice(-1);
+    if(s === "B" || s === "E"){
+        console.log("you got middle seat");
+
+    }else{
+        console.log("you are the lucky one ")
+    }
+
+};
+
+
+
+cheackMiddleSeat("11B");
+cheackMiddleSeat("23c");
+cheackMiddleSeat("3E");
+
+
+
+
+
+console.log(new String("BATMAN"));
+
+console.log( typeof new String("BATMAN").slice(1));
+
+
 // const porject1 ={
 //     name : "Comet coder",
 //     member :30,
