@@ -807,6 +807,58 @@ console.log(new String("BATMAN"));
 console.log( typeof new String("BATMAN").slice(1));
 
 
+
+// const capitalization = function(name){
+//     const names =name.split(" ");
+//     const nameUpper = []
+
+//     for(const n of names) {
+//         //nameUpper.push(n[0].toUpperCase() + n.slice(1))
+//          nameUpper.push(n.replace(n[0],n[0].toUpperCase()));
+
+//     }
+//     console.log(nameUpper.join(" "));
+
+
+// }
+
+
+
+// capitalization("jessica and smithdavice");
+// capitalization("lutfor jaman utshob");
+
+
+const capitalization = function(name){
+    const names =name.split(" ");
+    const nameUpper = []
+
+    for(const n of names) {
+        //nameUpper.push(n[0].toUpperCase() + n.slice(1))
+        nameUpper.push(n.replace(n[0],n[0].toUpperCase()));
+
+    }
+    console.log(nameUpper.join(" "));
+
+
+}
+
+
+
+capitalization("jessica and smithdavice");
+capitalization("lutfor jaman utshob");
+
+
+
+
+
+
+
+console.log("uthosb became batman".split(" "));
+
+
+
+
+
 // const porject1 ={
 //     name : "Comet coder",
 //     member :30,
@@ -921,3 +973,6 @@ console.log( typeof new String("BATMAN").slice(1));
 
 // const {fri:{open:o ,close:c}} = openingHour;
 // console.log(o,c);
+// ddd 
+
+
