@@ -856,6 +856,42 @@ capitalization("lutfor jaman utshob");
 console.log("uthosb became batman".split(" "));
 
 
+//padding 
+
+const message = "go to the gate 25";
+console.log(message.padStart(25,"+").padEnd(35,"+"));
+
+console.log("utsh0b".padStart(25,"+").padEnd(30,"+"));
+
+const maskCraditCard = function(number){
+    const str = number + " ";
+    const last =str.slice(-4);
+    return last.padStart(str.length,"*")
+};
+
+
+console.log(maskCraditCard(12458693));
+console.log(maskCraditCard(1024586785223125));
+console.log(maskCraditCard("124589677533541"))
+
+
+// repeat 
+  
+const message2 = "i am batman and belive in one allha ";
+console.log(message2.repeat(5));
+
+console.log("")
+
+
+const planeInLine = function(n){
+    console.log(`there are ${n} of ${`✈️`.repeat(n)}`)
+
+
+};
+
+planeInLine(5);
+planeInLine(3);
+planeInLine(12);
 
 
 
